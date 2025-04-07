@@ -136,7 +136,7 @@ const Trend = () => {
           background-color: var(--white) !important; 
         }
       `}</style>
-        <div className='bg-[var(--primary-color)] text-[var(--white)] px-[160px] py-[100px]'>
+        <div className='bg-[var(--primary-color)] text-[var(--white)] px-[10rem] py-[100px]'>
             <div className='flex flex-col items-center gap-[30px]'>
                 <p className='text-[1.2rem] font-[500] text-center uppercase'>Trenddə Nədİr ?</p>
                 <span className='text-[2.4rem] font-[600]'>Ən son Bloqlar və Yazılar</span>
