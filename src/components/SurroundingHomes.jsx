@@ -34,8 +34,8 @@ const SurroundingHomes = () => {
     },
   ];
   return (
-    <div className="px-[10rem] flex flex-col">
-      <div>
+    <div className="pt-[10rem] pb-[20rem] px-[10rem] flex flex-col">
+      <div className="px-[1.1rem]">
         <span className="uppercase text-[var(--primary-color)] text-[1.2rem] font-[500]">
           ŞƏHƏRƏ BÖYÜK SAHƏLƏR
         </span>
@@ -43,8 +43,8 @@ const SurroundingHomes = () => {
           Qonşuluq Əmlakları
         </p>
       </div>
-      <div className="flex flex-col ">
-        <div className="flex flex-row w-full justify-between items-center">
+      <div className="flex flex-col w-full">
+        <div className="flex flex-row ">
             <div className="relative">
               <img src="./img/mardakan.png" alt="Invest Home" />
               <div className="absolute bottom-[3.1rem] left-[4rem] flex flex-col gap-[1px]">
@@ -76,7 +76,7 @@ const SurroundingHomes = () => {
               </div>
           </div>
           <div className="relative">
-              <img src="./img/seabreeze.png" alt="Invest Home" />
+              <img src="./img/seabreeze.png" alt="Invest Home" className="" />
               <div className="absolute bottom-[3.1rem] left-[4rem] flex flex-col gap-[1px]">
                 <p className="text-[var(--white)] text-[3.5rem] font-[600] opacity-[0.6]">112</p>
                 <span className="text-[var(--white)] text-[1.2rem] font-[500] ">Sea Breeze</span>
