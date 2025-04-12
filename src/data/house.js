@@ -3,7 +3,7 @@ const houseData = [
   {
     id: 1,
     price: "5,970",
-    title: "Tranquil Haven in the Woods",
+    title: "Tranquil Haven",
     type: "kiraye",
     location: "1964 Jehovah Drive, VA 22408",
     beds: 4,

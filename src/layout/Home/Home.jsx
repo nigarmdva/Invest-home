@@ -1,30 +1,30 @@
-import React from 'react'
-import AgentSection from '../../components/AgentSection'
-import CompanyProfile from '../../components/CompanyProfile'
-import Customers from '../../components/Customers'
-import Footer from '../../components/Footer'
-import OurServices from '../../components/OurServices'
-import RecentHouses from '../../components/RecentHouses'
-import Specialists from '../../components/Specialists'
-import SubFooter from '../../components/SubFooter'
-import SurroundingHomes from '../../components/SurroundingHomes'
-import Trend from '../../components/Trend'
+import React from "react";
+import AgentSection from "../../components/AgentSection";
+import CompanyProfile from "../../components/CompanyProfile";
+import Customers from "../../components/Customers";
+import Footer from "../../components/Footer/Footer";
+import OurServices from "../../components/OurServices";
+import RecentHouses from "../../components/Houses/RecentHouses";
+import Specialists from "../../components/Specialists";
+import SubFooter from "../../components/Footer/SubFooter";
+import SurroundingHomes from "../../components/SurroundingHomes";
+import Trend from "../../components/Trend";
 
 const Home = () => {
   return (
     <>
-        <RecentHouses/>
-        <SurroundingHomes/>
-        <OurServices/>
-        <AgentSection/>
-        <CompanyProfile/>
-        <Specialists/>
-        <Trend/>
-        <Customers/>
-        <Footer/>
-        <SubFooter/>
+      <RecentHouses />
+      <SurroundingHomes />
+      <OurServices />
+      <AgentSection />
+      <CompanyProfile />
+      <Specialists />
+      <Trend />
+      <Customers />
+      <Footer />
+      <SubFooter />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
