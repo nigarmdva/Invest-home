@@ -10,6 +10,8 @@ import SubFooter from "../../components/Footer/SubFooter";
 import SurroundingHomes from "../../components/SurroundingHomes";
 import Trend from "../../components/Trend";
 import SubHeader from "../../components/Header/SubHeader";
+import Header from "../../components/Header/Header";
+import HomeIntro from "../../components/Home Intro/HomeIntro";
 
 const Home = () => {
   return (
@@ -17,6 +19,7 @@ const Home = () => {
 
       <SubHeader/>
       <Header />
+      <HomeIntro/>
       <RecentHouses />
       <SurroundingHomes />
       <OurServices />
