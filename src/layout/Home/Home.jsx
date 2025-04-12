@@ -9,10 +9,14 @@ import Specialists from "../../components/Specialists";
 import SubFooter from "../../components/Footer/SubFooter";
 import SurroundingHomes from "../../components/SurroundingHomes";
 import Trend from "../../components/Trend";
+import SubHeader from "../../components/Header/SubHeader";
 
 const Home = () => {
   return (
     <>
+
+      <SubHeader/>
+      <Header />
       <RecentHouses />
       <SurroundingHomes />
       <OurServices />

@@ -104,7 +104,7 @@ const RecentHouses = () => {
         </Slider>
       </div>
       <div className="flex justify-center items-center py-[3rem]">
-        <a href="" className=" cursor-pointer bg-[var(--primary-color)] text-[var(--white)] w-[12rem] h-[3.5rem] flex justify-center items-center rounded-[0.25rem]">Hamısına bax</a>
+        <a href="" className=" cursor-pointer bg-[var(--primary-color)] text-[var(--white)] w-[12rem] h-[3.5rem] flex justify-center items-center rounded-[0.25rem]">{activeType === "butun" ? "Hamısına bax" : activeType === "satiliq" ? "Bütün satılıq evlər" : "Bütün kirayə evlər"}</a>
       </div>
     </div>
   );
