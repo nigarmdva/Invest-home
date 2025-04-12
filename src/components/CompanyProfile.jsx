@@ -27,13 +27,16 @@ const CompanyProfile = () => {
             </div>
         </div>
         <div className='relative'>
+            
+            <img src="./img/invest.svg" alt="Invest Home" className='absolute top-[-4rem] right-[23rem]' />
+            
             <img src="./img/iPhone 15 Pro.png" alt="Invest Home " />
-        </div>
-        <div className='absolute bottom-0  right-[12rem]'>
-            <img src="./img/Ellipse 15.svg" alt="Invest Home" />
-        </div>
-        <div className='absolute bottom-[15rem]  right-[19rem] rotate-90'>
-            <img src="./img/Ellipse 15.svg" alt="Invest Home" />
+            <div className='absolute bottom-[-7rem]  right-[14rem]'>
+                <img className=' w-[6rem]' src="./img/Ellipse 15.svg" alt="Invest Home" />
+            </div>
+            <div className='absolute bottom-[9rem]  right-[19.5rem] rotate-90'>
+                <img src="./img/Ellipse 15.svg" alt="Invest Home" />
+            </div>
         </div>
     </div>
   )
