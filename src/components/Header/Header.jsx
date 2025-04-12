@@ -5,7 +5,7 @@ import { BiPlusCircle } from "react-icons/bi";
 
 const Header = () => {
   return (
-    <div className='px-[8rem] py-[0.94rem] flex items-center justify-between'>
+    <div className='px-[8rem] py-[0.5rem] flex items-center justify-between'>
         <div className='flex items-center '>
             <img src="./img/logo.png" alt="Invest Home" />
             <span className='text-[#1E1E1E] font-[600] text-[1.25rem]'>Invest Home</span>

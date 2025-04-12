@@ -12,6 +12,8 @@ import Trend from "../../components/Trend";
 import SubHeader from "../../components/Header/SubHeader";
 import Header from "../../components/Header/Header";
 import HomeIntro from "../../components/Home Intro/HomeIntro";
+import HomeSlider from "../../components/Home Intro/Home Intro Sections/HomeSlider";
+import HomeCustomersButtons from "../../components/Home Intro/Home Intro Sections/HomeCustomersButtons";
 
 const Home = () => {
   return (
@@ -20,6 +22,7 @@ const Home = () => {
       <SubHeader/>
       <Header />
       <HomeIntro/>
+      <HomeCustomersButtons/>
       <RecentHouses />
       <SurroundingHomes />
       <OurServices />
