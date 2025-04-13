@@ -37,7 +37,7 @@ const Filter = () => {
             <IoMdArrowDropdown className="text-[#000]" />
           </div>
         </div>
-        <div className="flex items-center justify-center h-[4.3rem] w-[8rem] bg-[var(--primary-color)] rounded-r-[0.5rem] ">
+        <div className="flex items-center justify-center h-[4.3rem] w-[8rem] bg-[var(--primary-color)] rounded-r-[0.5rem] shadow-[0px_3px_15px_0px_rgba(0,_0,_0,_0.05)] ">
           <IoSearchOutline className="text-[var(--white)] text-[2rem]" />
         </div>
       </div>

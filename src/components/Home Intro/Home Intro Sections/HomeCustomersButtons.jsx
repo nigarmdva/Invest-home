@@ -22,7 +22,7 @@ const HomeCustomersButtons = () => {
           <span>72k+ Məmnun <br /> Müştəri</span>
         </div>
       </div>
-      <div className='flex flex-row gap-[2rem] py-[1rem] w-[20rem] items-center justify-center px-[1.5rem] rounded-[3.1rem] border border-[#F4F4F4] shadow-[0px_4px_18px_0px_rgba(0,_0,_0,_0.05)]'>
+      <div className='flex flex-row gap-[2rem] py-[1rem] w-[22rem] items-center justify-center px-[1.5rem] rounded-[3.1rem] border border-[#F4F4F4] shadow-[0px_4px_18px_0px_rgba(0,_0,_0,_0.05)]'>
        
           <img  src="./img/Ellipse 3 (1).svg" alt="" />
         

@@ -75,6 +75,9 @@ const HomeSlider = () => {
           <div>
             <img src="./img/slider1.jpg" alt="Invest Home" className="w-full rounded-lg" />
           </div>
+          <div>
+            <img src="./img/slider1.jpg" alt="Invest Home" className="w-full rounded-lg" />
+          </div>
         </Slider>
       </div>
     </>
